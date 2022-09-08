@@ -1,0 +1,22 @@
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.statusOnline {
+  composes: status;
+  background-color: green;
+}
+
+.statusOffline {
+  composes: status;
+  background-color: red;
+}
+
+.name {
+  font-size: 30px;
+  color: #1f1616;
+  margin-left: 10px;
+}

@@ -1,0 +1,39 @@
+.table {
+  margin-top: 2px;
+  background-color: bisque;
+  min-width: 150px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgb(78, 78, 77);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2),
+    0px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+thead {
+  font-size: 30px;
+  font-weight: 500;
+  color: #313030;
+}
+
+th {
+  min-width: 150px;
+}
+
+tr {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1f1616;
+}
+
+tr:nth-child(0) {
+  background: rgb(87, 243, 243);
+  border-bottom: 1px solid rgb(10, 85, 85);
+}
+
+tr:nth-child(even) {
+  background: #477a83;
+}
+
+tr:hover {
+  background-color: rgb(11, 225, 253);
+}
